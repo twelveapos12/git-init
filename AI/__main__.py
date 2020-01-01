@@ -5,12 +5,12 @@ import subprocess
 #!/usr/local/bin/python3
 
 from PIL import Image
-img = Image.open("original/textura.jpg")
+img = Image.open("original/textura.png")
 
 rmd = random.randint(1,100)
 
 
-imgSmall = img.resize((16,16),resample=Image.BILINEAR)
+imgSmall = img.resize((32,32),resample=Image.BILINEAR)
 
 
 
